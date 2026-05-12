@@ -4,24 +4,7 @@ VisionDamage AI is a Streamlit-based computer vision application that detects vi
 
 The project was built for the Hero VIDA Challenge / hackathon context, with the larger idea of making vehicle damage inspection quicker, more transparent, and less dependent on manual first-level checks.
 
-> Image placeholder: Add a main dashboard screenshot here.
->
-> `![VisionDamage AI Dashboard](assets/dashboard.jpeg)`
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Key Features](#key-features)
-- [Model Used](#model-used)
-- [Tech Stack](#tech-stack)
-- [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
-- [Setup and Installation](#setup-and-installation)
-- [How to Use](#how-to-use)
-- [Output Report](#output-report)
-- [Challenges I Faced](#challenges-i-faced)
-- [End Goal](#end-goal)
-- [Future Improvements](#future-improvements)
+![VisionDamage AI Dashboard](assets/dashboard.jpeg)
 
 ## Introduction
 
@@ -31,9 +14,7 @@ VisionDamage AI helps simplify this process by using an object detection model t
 
 The aim is not to fully replace human inspection, but to support it by giving a fast and consistent first-level assessment.
 
-> Image placeholder: Add a before-and-after detection example here.
->
-> `![Original vs Detected Damage](assets/bounding box.png)`
+![Original vs Detected Damage](assets/bounding%20box.png)
 
 ## Key Features
 
@@ -72,9 +53,7 @@ The model is expected to detect the following classes:
 
 The app uses the trained YOLO model for inference and then adds post-processing logic for severity, impact type, risk flagging, and report generation.
 
-> Image placeholder: Add a model prediction sample here.
->
-> `![YOLOv8 Damage Prediction](assets/score.png)`
+![YOLOv8 Damage Prediction](assets/score.png)
 
 ## Tech Stack
 
@@ -183,7 +162,7 @@ After running the command, Streamlit will open the app in your browser.
 
 The app produces a JSON report with information like:
 
-> `![JSON Report Format](assets/json file.png)`
+![JSON Report Format](assets/json%20file.png)
 
 
 This makes the output useful not only for visual inspection, but also for integration with claim systems, service dashboards, or backend workflows.
